@@ -1,4 +1,5 @@
 import csv
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,31 +13,32 @@ url = "https://www.transfermarkt.com/transfers/einnahmenausgaben/statistik/a/ids
 driver.get(url)
 
 # Wait for the table to load
-wait = WebDriverWait(driver, 20)
+wait = WebDriverWait(driver, 10)
+time.sleep(10)
 table = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".responsive-table")))
 
 # Find all rows in the table
 rows = table.find_elements(By.CSS_SELECTOR, "tbody tr")
 
 # Create a list to store club expenditures data
-club_expenditures_data = []
+clubExpenditures_data = []
 
 # Iterate through each row and extract data
 for row in rows:
     columns = row.find_elements(By.TAG_NAME, "td")
     if len(columns) >= 3:
-        club_name = columns[2].text
+        clubName = columns[2].text
         expenditure = columns[3].text
-        club_expenditures_data.append([club_name, expenditure])
+        clubExpenditures_data.append([clubName, expenditure])
 
 # Write the data to the CSV file (append to existing data)
-csv_file = "club expenditures.csv"
-with open(csv_file, mode="a", newline="", encoding="utf-8") as file:
+csvFile = "club expenditures.csv"
+with open(csvFile, mode="a", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
-    for row in club_expenditures_data:
+    for row in clubExpenditures_data:
         writer.writerow(row)  # Write each row separately
 
 # Close the WebDriver
 driver.quit()
 
-print(f"Data appended to {csv_file}")
+print(f"Data appended to {csvFile}")
