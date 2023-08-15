@@ -10,19 +10,25 @@ with open('club expenditures.csv', 'r') as expenditures:
     expendituresReader = csv.reader(expenditures)
     expenditureData = list(expendituresReader)
     
-# put all club rankings into list
+# put all club rankings and expenditures
 clubList = []
 rankingsList = []
 expenditureList = []
 
-for row in expenditureData:
-    clubList.append(row[0])
-    expenditureList.append(row[1])
-
-# find rankings for every club
 for row in rankingsData:
     club = row[2]
-    if club in clubList:
-        rankingsList.append(row[0])
+    ranking = row[0]
 
-# sort rankings by order and sort clubs and expenditures with them
+    for row1 in expenditureData:
+        if club in row1[0]:
+            clubList.append(club)
+            rankingsList.append(ranking)
+            expenditureList.append(row1[1])
+
+# put all lists in Power Rankings + Expenditure csv
+with open('Power Rankings + Expenditure.csv', 'a', newline='') as csvfile:
+    writer  = csv.writer(csvfile)
+
+    for i in range (len(clubList)):
+        row_toWrite = [clubList[i], rankingsList[i], expenditureList[i]]
+        writer.writerow(row_toWrite)

@@ -1,0 +1,196 @@
+club,ranking,expenditure
+Manchester City,1,€1.03bn
+Bayern Munich,2,€540.25m
+Barcelona,3,€1.15bn
+Real Madrid,4,€671.75m
+Liverpool,5,€674.60m
+Arsenal,6,€839.10m
+Newcastle,7,€534.00m
+Napoli,8,€522.72m
+Borussia Dortmund,9,€566.34m
+RB Leipzig,11,€479.25m
+Benfica,12,€360.96m
+Aston Villa,13,€512.69m
+Paris Saint-Germain,15,€895.50m
+Manchester United,16,€986.98m
+Ajax,18,€332.65m
+Lille,19,€296.53m
+Brentford,20,€148.02m
+Real Sociedad,21,€134.75m
+Sporting CP,22,€236.17m
+FC Porto,23,€232.86m
+Chelsea,24,€1.49bn
+Feyenoord,25,€93.32m
+Lyon,26,€322.91m
+Athletic Bilbao,29,€76.90m
+Celtic,30,€127.86m
+Fiorentina,32,€355.30m
+Marseille,34,€341.94m
+PSV,35,€126.65m
+Crystal Palace,36,€230.02m
+Villarreal,37,€280.28m
+Lens,38,€94.94m
+AC Milan,39,€685.00m
+AS Roma,40,€583.80m
+Tottenham Hotspur,43,€655.80m
+Rangers,44,€66.44m
+Eintracht Frankfurt,45,€182.79m
+West Ham United,46,€593.20m
+Atalanta,47,€417.39m
+VfL Wolfsburg,48,€277.48m
+Juventus,49,€1.08bn
+Juventus,49,€78.80m
+Juventus,49,€38.47m
+Torino,50,€197.61m
+Sevilla FC,51,€493.08m
+Mainz,52,€109.95m
+Palmeiras,53,€91.55m
+Valencia,54,€285.10m
+Lazio,55,€225.78m
+Fulham,56,€304.12m
+Besiktas,57,€74.12m
+Nice,59,€274.73m
+VfB Stuttgart,60,€146.75m
+Galatasaray,62,€160.89m
+AZ,63,€42.22m
+Girona FC,64,€39.65m
+Real Betis,65,€207.70m
+SC Freiburg,66,€95.30m
+Flamengo,67,€165.35m
+Strasbourg,68,€55.65m
+Osasuna,70,€40.05m
+Young Boys,71,€36.84m
+Getafe,73,€115.45m
+AS Monaco,74,€609.95m
+Leicester City,75,€477.75m
+KAA Gent,76,€89.08m
+Reims,77,€84.80m
+Bologna,78,€183.53m
+Werder Bremen,79,€77.80m
+Fenerbahce,80,€148.21m
+Monterrey,81,€109.78m
+Everton,82,€616.07m
+Sassuolo,84,€280.35m
+Slavia Prague,85,€48.69m
+Braga,86,€71.31m
+Burnley,88,€186.29m
+Rayo Vallecano,89,€35.90m
+Olympiacos,90,€92.12m
+Dinamo Zagreb,91,€44.34m
+Genk,92,€134.50m
+AEK Athens,94,€26.49m
+Club Brugge,95,€186.94m
+Tigres UANL,96,€90.85m
+Toulouse,98,€58.19m
+Udinese,99,€172.74m
+Mallorca,101,€35.51m
+Antwerp,102,€69.81m
+AFC Bournemouth,103,€277.25m
+Schalke 04,104,€153.88m
+CSKA Moscow,105,€84.82m
+Wolverhampton,106,€556.36m
+Leeds United,107,€378.61m
+River Plate,109,€88.64m
+Espanyol,110,€130.01m
+Monza,111,€79.63m
+São Paulo,113,€63.32m
+Montpellier,114,€58.95m
+Red Star Belgrade,116,€34.07m
+FC Copenhagen,119,€75.00m
+Botafogo,121,€19.63m
+Shakhtar Donetsk,123,€118.90m
+Elche,124,€31.91m
+FC Augsburg,126,€93.01m
+Southampton,127,€407.55m
+Sheffield United,128,€152.34m
+Nottingham Forest,131,€260.07m
+Sparta,132,€135.36m
+Sparta,132,€39.91m
+Middlesbrough,133,€106.45m
+Brest,134,€38.20m
+FC Midtjylland,135,€47.42m
+Pachuca,137,€36.46m
+Internacional,141,€21.52m
+Lokomotiv Moscow,142,€120.22m
+Trabzonspor,143,€69.52m
+Real Valladolid,144,€31.85m
+Lorient,147,€78.25m
+Bragantino,148,€71.31m
+Empoli,149,€68.86m
+Los Angeles FC,150,€51.94m
+Spartak Moscow,151,€135.36m
+Anderlecht,158,€106.23m
+León,159,€25.65m
+Atlas,162,€13.59m
+Swansea City,164,€91.27m
+Nantes,174,€69.35m
+Vasco da Gama,176,€21.97m
+Corinthians,177,€41.95m
+Guadalajara,180,€52.53m
+Santos,181,€39.50m
+Verona,183,€127.01m
+Cruz Azul,184,€123.54m
+Metz,187,€46.25m
+Cruzeiro,191,€21.91m
+Spezia,199,€54.58m
+Toluca,201,€42.40m
+Salernitana,202,€67.02m
+West Bromwich Albion,203,€142.31m
+Cagliari,208,€150.47m
+FC Cincinnati,209,€32.43m
+Santos Laguna,211,€29.14m
+Stoke City,212,€134.15m
+Cremonese,214,€44.34m
+Boca Juniors,217,€71.65m
+Atlanta United FC,218,€84.48m
+Genoa,221,€235.89m
+Grêmio,223,€35.21m
+Angers,224,€46.37m
+Estudiantes,225,€15.58m
+Norwich City,235,€121.82m
+Watford,237,€221.81m
+Bordeaux,239,€89.86m
+Columbus Crew,245,€27.27m
+New York City FC,248,€34.42m
+San Lorenzo,251,€23.19m
+Rostov,255,€33.41m
+Bristol City,258,€58.13m
+Orlando City SC,264,€29.69m
+Levante,266,€56.78m
+Basel,274,€48.77m
+Vancouver Whitecaps,275,€30.68m
+Ludogorets,276,€29.45m
+Parma,279,€200.78m
+Puebla,280,€13.95m
+Sampdoria,281,€210.96m
+Portland Timbers,296,€37.75m
+Granada,297,€53.22m
+Los Angeles Galaxy,303,€33.40m
+Tigre,313,€90.85m
+Necaxa,316,€24.91m
+Hull City,318,€39.23m
+Fortuna Düsseldorf,319,€26.10m
+Racing Club,332,€65.37m
+Alavés,335,€35.70m
+Tijuana,338,€47.32m
+FC Juárez,354,€14.74m
+Eibar,355,€44.05m
+CA Independiente,357,€41.67m
+Charlotte FC,361,€26.78m
+Birmingham,362,€40.98m
+Cardiff City,364,€87.34m
+Chicago Fire,373,€37.35m
+Troyes,375,€50.94m
+Austin FC,381,€26.02m
+Huddersfield Town,385,€122.67m
+Dijon FCO,430,€40.97m
+Derby County,439,€38.75m
+Inter Miami CF,444,€40.21m
+Reading,446,€36.15m
+Pau,467,€63.32m
+Hannover 96,470,€44.47m
+Amiens,473,€44.22m
+Benevento,497,€61.79m
+Beijing Guoan,498,€111.34m
+Brescia,518,€31.90m
+Shenzhen FC,632,€61.27m
